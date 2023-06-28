@@ -9,7 +9,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 12%;
+    padding: 3% 12% 7%;
 }
 
 h1 {
@@ -68,12 +68,16 @@ p {
 .titleImage {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
 }
 
 /* Features Section */
 
 #features {
     padding: 7% 15%;
+    position: relative;
+    background-color: white;
 }
 
 .feature-box{
@@ -128,4 +132,33 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+    background-color: #FF4C68;
+    text-align: center;
+    color: #FFF;
+    padding: 7% 15%;
+}
+
+.CTA-heading {
+    font-family: "Montserrat";
+    font-size: 3.4rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .titleImage {
+        position: static;
+        transform: rotate(0);
+    }
+    
 }
