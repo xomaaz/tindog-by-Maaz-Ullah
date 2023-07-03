@@ -1,39 +1,35 @@
 
 body {
     font-family: "Montserrat";
-}
-
-#title {
-    background-color: #FF4C68;
-    color: #FFF;
+    text-align: center;
 }
 
 .container-fluid {
-    padding: 3% 12% 7%;
+    padding: 7% 15%;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat";
-    font-size: 3.4rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: "Montserrat";
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.5;
 }
 
 h3 {
-    font-family: "Montserrat";
     font-size: 1.27rem;
     font-weight: 600;
 }
 
 p {
     color: #8F8F8F;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* Navigation Bar */
@@ -63,7 +59,12 @@ p {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title Section */
+
+#title .container-fluid{
+    padding: 2% 11% 7%;
+    text-align: left;
+}
 
 .titleImage {
     width: 60%;
@@ -75,14 +76,17 @@ p {
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
     position: relative;
     background-color: white;
 }
 
 .feature-box{
-    text-align: center;
     padding: 5%;
+}
+
+.feature-title {
+    font-size: 1.27rem;
+    font-weight: 600;
 }
 
 .icon {
@@ -97,13 +101,14 @@ p {
 /* Testimonials */
 
 #testimonials {
-    text-align: center;
     background-color: #EF8172;
-    color: #FFF;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+
+.testimonial-text {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -114,7 +119,6 @@ p {
 
 #press {
     background-color: #EF8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -127,26 +131,54 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
-/* CTA section */
-
-#cta {
-    background-color: #FF4C68;
-    text-align: center;
-    color: #FFF;
-    padding: 7% 15%;
+.price-text {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
-.CTA-heading {
+/* Footer section */
+
+#footer {
+    padding: 7% 15% 0% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.copyright {
+    margin-bottom: 7%; 
+}
+
+.CVlink {
+    color: #EF8172;
+    text-decoration: none;
+}
+
+.CVlink:hover {
+    color: #FF4C68;
+    text-decoration: none;
+}
+
+/* Headings */
+
+.big-heading {
     font-family: "Montserrat";
     font-size: 3.4rem;
     font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 2rem;
+    font-weight: bold;
     line-height: 1.5;
 }
 
